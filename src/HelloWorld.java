@@ -1,7 +1,5 @@
 import org.testng.annotations.Test;
 
-import java.sql.SQLOutput;
-
 public class HelloWorld {
 
     @Test
