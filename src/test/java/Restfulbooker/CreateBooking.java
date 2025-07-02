@@ -11,7 +11,7 @@ public class CreateBooking {
 	
 	public static void main(String[] args) {
 		
-		//1.Build Request
+		//1.Build Request- Same as GIVEN
 		
 		//RequestSpecification requestSpecification = RestAssured.given();
 		//RequestSpecification requestSpecification =  RestAssured.given().log().all();
@@ -40,9 +40,9 @@ public class CreateBooking {
 		//requestSpecification.contentType("application/json");
 		//requestSpecification
 			.contentType(ContentType.JSON)
-		//2.Hit Request and get Response
+		//2.Hit Request and get Response- Same as WHEN
 			.post()
-		//3.validate response
+		//3.validate response- Same as THEN
 			.then()
 			.log()
 			.all()
