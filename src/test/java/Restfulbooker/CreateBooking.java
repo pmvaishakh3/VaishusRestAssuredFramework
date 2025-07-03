@@ -46,7 +46,7 @@ public class CreateBooking {
 			.then()
 			.log()
 			.all()
-			.statusCode(200);
+			.statusCode(400);
 			
 			
 		
