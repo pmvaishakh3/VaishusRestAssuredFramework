@@ -16,7 +16,7 @@ public class DeleteBooking {
 			.baseUri("https://restful-booker.herokuapp.com")
 			//.basePath("booking/1")
 			.basePath("{booking/bookingID}")
-			.pathParam("bookingID", "6")
+			.pathParam("bookingID", "7")
 			.contentType(ContentType.JSON)
 			.header("Authorization","Basic YWRtaW46cGFzc3dvcmQxMjM=")
 		
