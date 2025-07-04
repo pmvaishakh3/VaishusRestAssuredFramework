@@ -11,12 +11,14 @@ public class UpdateBookingPut {
 			.log()
 			.all()
 			.baseUri("https://restful-booker.herokuapp.com/")
-			.basePath("booking/1")
+			.basePath("booking/4749")
 			.header("Content-Type","application/json")
-			.header("Authorization","Basic YWRtaW46cGFzc3dvcmQxMjM=]")
+			.header("Authorization","Basic YWRtaW46cGFzc3dvcmQxMjM=")
+			//.header("Authorization","token=abc123xyz456")
+			//.cookie("token", token)
 			.body("'{\n"
-				+ "    \"firstname\" : \"Kumar\",\n"
-				+ "    \"lastname\" : \"Sanu\",\n"
+				+ "    \"firstname\" : \"Dileep\",\n"
+				+ "    \"lastname\" : \"Kuar\",\n"
 				+ "    \"totalprice\" : 909,\n"
 				+ "    \"depositpaid\" : true,\n"
 				+ "    \"bookingdates\" : {\n"

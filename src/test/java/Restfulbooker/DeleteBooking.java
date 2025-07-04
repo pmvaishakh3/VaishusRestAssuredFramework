@@ -17,6 +17,7 @@ public class DeleteBooking {
 			//.basePath("booking/1")
 			.basePath("{booking/bookingID}")
 			.pathParam("bookingID", "7")
+			.pathParam("bookingID", "4678")
 			.contentType(ContentType.JSON)
 			.header("Authorization","Basic YWRtaW46cGFzc3dvcmQxMjM=")
 		
@@ -31,7 +32,7 @@ public class DeleteBooking {
 			.log()
 			.all()
 			.assertThat()
-			.statusCode(201);
+			.statusCode(200);
 
 	}
 
