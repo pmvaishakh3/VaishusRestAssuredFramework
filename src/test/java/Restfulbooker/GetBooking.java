@@ -1,9 +1,9 @@
 package Restfulbooker;
 
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
-import io.restassured.specification.RequestSpecification;
+//import io.restassured.response.Response;
+//import io.restassured.response.ValidatableResponse;
+//import io.restassured.specification.RequestSpecification;
 
 public class GetBooking {
 
@@ -18,7 +18,7 @@ public class GetBooking {
 				.all()
 				.baseUri("https://restful-booker.herokuapp.com")
 				.basePath("booking/{id}")
-				.pathParam("id", 90)
+				.pathParam("id", 1206)
 			.when()
 				.get()
 			.then()

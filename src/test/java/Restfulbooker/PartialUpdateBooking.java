@@ -14,7 +14,7 @@ public class PartialUpdateBooking {
 				.baseUri("https://restful-booker.herokuapp.com")
 				.basePath("booking/1")
 				.body("'{\n"
-						+ "    \"firstname\" : \"Dileep\",\n"
+						+ "    \"firstname\" : \"vijay\",\n"
 						+ "    \"lastname\" : \"Kumar\"\n"
 						+ "}'")
 				.contentType(ContentType.JSON)
@@ -25,7 +25,7 @@ public class PartialUpdateBooking {
 				.log()
 				.all()
 				.assertThat()
-				.statusCode(200);
+				.statusCode(201);
 				
 			
 	}
