@@ -18,7 +18,7 @@ public class UpdateBookingPut {
 			//.cookie("token", token)
 			.body("'{\n"
 				+ "    \"firstname\" : \"Dileep\",\n"
-				+ "    \"lastname\" : \"Kuar\",\n"
+				+ "    \"lastname\" : \"Kumar\",\n"
 				+ "    \"totalprice\" : 909,\n"
 				+ "    \"depositpaid\" : true,\n"
 				+ "    \"bookingdates\" : {\n"
