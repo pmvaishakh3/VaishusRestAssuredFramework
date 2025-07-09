@@ -6,6 +6,10 @@
       <class name="Restfulbooker.HeadersExample">
         <methods>
           <include name="PassHeader"/>
+          <include name="PassHeader3"/>
+          <include name="PassHeader4"/>
+          <include name="PassHeader2"/>
+          <include name="PassHeader1"/>
         </methods>
       </class> <!-- Restfulbooker.HeadersExample -->
     </classes>
