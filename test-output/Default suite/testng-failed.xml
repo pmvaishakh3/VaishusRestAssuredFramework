@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Restfulbooker.DefaultValues2">
+      <class name="Restfulbooker.HeadersExample">
         <methods>
-          <include name="createBookin1"/>
-          <include name="createBooking2"/>
+          <include name="PassHeader"/>
         </methods>
-      </class> <!-- Restfulbooker.DefaultValues2 -->
+      </class> <!-- Restfulbooker.HeadersExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
