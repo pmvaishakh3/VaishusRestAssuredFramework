@@ -10,7 +10,7 @@ public class JsonPathIntro {
 	private void jsonPathDemo() {
 		
 		String json = "{\r\n" +
-		        " \"firstname\": \"Jim\",\r\n " +
+		        " \"firstname\": \"123\",\r\n " +
 		        " \"lastname\": \"Brown\",\r\n" +
 		        "}";
 		
@@ -22,6 +22,13 @@ public class JsonPathIntro {
 		
 		Object fname = JsonPath.get("firstname");
 		System.out.println(fname);
+		
+
+		//int i = JsonPath.get("firstname");
+		//System.out.println(i);
+		
+		String s = "amod";
+		System.out.println(Integer.parseInt(s));
 	}
 	
 }

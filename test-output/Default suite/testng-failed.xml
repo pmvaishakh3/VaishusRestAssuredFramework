@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Restfulbooker.DefaultHeaderBehaviour">
+      <class name="JsonPathEgs.JsonPathNonExistence">
         <methods>
-          <include name="defaultBehaviour"/>
-          <include name="overwriteheaderValue"/>
+          <include name="jsonPathDemo"/>
         </methods>
-      </class> <!-- Restfulbooker.DefaultHeaderBehaviour -->
+      </class> <!-- JsonPathEgs.JsonPathNonExistence -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
