@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Restfulbooker.HeadersExample">
+      <class name="Restfulbooker.DefaultHeaderBehaviour">
         <methods>
-          <include name="PassHeader"/>
-          <include name="PassHeader3"/>
-          <include name="PassHeader4"/>
-          <include name="PassHeader2"/>
-          <include name="PassHeader1"/>
+          <include name="defaultBehaviour"/>
+          <include name="overwriteheaderValue"/>
         </methods>
-      </class> <!-- Restfulbooker.HeadersExample -->
+      </class> <!-- Restfulbooker.DefaultHeaderBehaviour -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
