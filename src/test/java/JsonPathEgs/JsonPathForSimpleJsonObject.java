@@ -1,13 +1,26 @@
 package JsonPathEgs;
 
+import io.restassured.path.json.JsonPath;
+
 public class JsonPathForSimpleJsonObject {
+	
+	private static void main(String[] args) {
+		String jsonObject = "{\r\n	" +
+				 " \"firstname\": \"Amod\",\r\n " +
+				 "	\"lastname\": \"Brown\",\r\n" +
+				 "	\"age\": 28,\r\n" +
+				 " 	\"address\": \"Bengalru\",\r\n" +
+				 "}";
 
-	String jsonObject = "{\\r\\n\" +\n"
-			+ "		        \" \\\"firstname\\\": \\\"Amod\\\",\\r\\n \" +\n"
-			+ "		        \" \\\"lastname\\\": \\\"Brown\\\",\\r\\n\" +\n"
-			+ "		        \"}\";\n"
-			+ "		"
+		JsonPath jp = new JsonPath(jsonObject);
+		String firstName = jp.getString("firstName");
+		System.out.println(firstName);
+		
+		
 
+	}
+
+	
 	}
 
 }

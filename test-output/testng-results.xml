@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-10T20:27:57 IST" name="Default suite" finished-at="2025-07-10T20:27:57 IST" duration-ms="223">
+  <suite started-at="2025-07-11T22:21:15 IST" name="Default suite" finished-at="2025-07-11T22:21:15 IST" duration-ms="3">
     <groups>
     </groups>
-    <test started-at="2025-07-10T20:27:57 IST" name="Default test" finished-at="2025-07-10T20:27:57 IST" duration-ms="223">
-      <class name="JsonPathEgs.JsonPathNonExistence">
-        <test-method signature="jsonPathDemo()[pri:0, instance:JsonPathEgs.JsonPathNonExistence@290222c1]" started-at="2025-07-10T20:27:57 IST" name="jsonPathDemo" finished-at="2025-07-10T20:27:57 IST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jsonPathDemo -->
-      </class> <!-- JsonPathEgs.JsonPathNonExistence -->
+    <test started-at="2025-07-11T22:21:15 IST" name="Default test" finished-at="2025-07-11T22:21:15 IST" duration-ms="3">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
