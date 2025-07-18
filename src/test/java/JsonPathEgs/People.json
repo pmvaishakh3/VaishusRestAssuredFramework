@@ -1,0 +1,101 @@
+[
+  {
+    "id":1,
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "age": 30,
+	"email": "jim@hooole.com",
+    "address": [
+      {
+        "city": "kannur",
+        "country": "india"
+      },
+      {
+        "city": "Payyanur"
+      },
+      {
+        "city1": "Banglore1",
+        "country1": "india1"
+      }
+    ]
+  },
+  { "id":2,
+    "firstname": "Dileep",
+    "lastname": "Jain",
+    "age": 36,
+	"email": "dileep@hooole.com",
+    "address": [
+      {
+        "city": "Kozhikode",
+        "country": "india"
+      },
+      {
+        "city": "Kanpur",
+        "country": "india"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "firstname": "tim",
+    "lastname": "Brown",
+	"email": "jim1@hooole.com",
+    "age": 30,
+	"gender":"male",
+    "address": [
+      {
+        "city": "kannur",
+        "country": "india"
+      },
+      {
+        "city": "Payyanur"
+      },
+      {
+        "city1": "Banglore1",
+        "country1": "india1"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "firstname": "Jimy",
+	"email": "jimy@hooole.com",
+    "lastname": "Browne",
+    "age": 30,
+	"gender":"female",
+    "address": [
+      {
+        "city": "kannur",
+        "country": "india"
+      },
+      {
+        "city": "Payyanur"
+      },
+      {
+        "city1": "Banglore1",
+        "country1": "india1"
+      }
+    ]
+  },
+  {
+    "id":5,
+    "firstname": "Jimy",
+    "lastname": "Browne",
+	"email": "jimyy@hooole.com",
+    "age": 30,
+	"gender":"female",
+    "address": [
+      {
+        "city": "kannur",
+        "country": "india"
+      },
+      {
+        "city": "Payyanur"
+      },
+      {
+        "city1": "Banglore1",
+        "country1": "india1"
+      }
+    ]
+  }
+]

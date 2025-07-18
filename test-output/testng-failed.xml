@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JsonPathEgs.JsonPathIntro">
+      <class name="Restfulbooker.MultipleBooking">
         <methods>
-          <include name="jsonPathDemo"/>
+          <include name="updateBooking"/>
+          <include name="setupRequestSpec"/>
         </methods>
-      </class> <!-- JsonPathEgs.JsonPathIntro -->
+      </class> <!-- Restfulbooker.MultipleBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
