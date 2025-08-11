@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 
 public class CreateSimpleJsonObjectUsingMap {
 	
@@ -17,12 +18,13 @@ public class CreateSimpleJsonObjectUsingMap {
 		jsonObjectPayload.put("married","false");
 		jsonObjectPayload.put("salary","100.899");
 		
-		RestAssured 
-			.given()
-			.log()
-			.all()
-			.body(jsonObjectPayload)
-			.get();
+        RestAssured
+            .given()
+            .log()
+            .all()
+            .contentType(ContentType.JSON)
+            .body(jsonObjectPayload)
+            .post("https://httpbin.org/post");
 		
 	}
 
